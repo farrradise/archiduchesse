@@ -218,22 +218,83 @@ $$$$$$$$$$$$$$$$$$$$$$*/
   }
 
   .laptopheader header {
-    width: 94%;
+    width: 86%;
+    min-width: 900px;
     margin: auto;
     height: 100%;
     display: flex;
     flex-flow: column nowrap;
-    border: 1px solid red!important;
+  }
+
+  .laptopheader header > div a img {
+    width: 280px;
+    margin-top: 10px;
+  }
+
+  .laptopheader header ul li {
+    /*border: 1px solid red!important;*/
+  }
+
+  /*mise en page de la navigation principale */
+  .laptopheader header > div:first-of-type {
+    display: flex;
+  }
+
+  .laptopheader header > div:first-of-type > nav {
+    margin: 40px;
+  }
+
+  .laptopheader header > div:first-of-type > nav ul {
+    display: flex;
+    margin-left: -12px;
+    justify-content: space-between;
+  }
+
+  .laptopheader header > div nav li {
+    width: auto;
+    margin-right: 5px;
+  }
+
+  .laptopheader header > div nav a {
+    font-size: 18px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 5px 8px;
+    color: #555;
+  }
+
+  .laptopheader header > div nav .active a,
+  .laptopheader header > div nav a:hover {
+    background-color: white!important;
+    color: #333333!important;
   }
 
   .laptopheader header > nav {
     margin-top: auto;
-
   }
 
-  .laptopheader header ul li {
-    border: 1px solid red!important;
-
+  .laptopheader header > div nav li:nth-child(4)::after {
+  content: 'BETA';
+  font-size: 8px;
+  font-family: Arial,sans-serif;
+  color: #B35860;
+  background-color: #fce0dd;
+  display: block;
+  position: absolute;
+  top: -3px;
+  right: -8px;
+  padding: 3px 4px;
+  line-height: 1em;
   }
+
+  .connect {
+    background-image: url(../img/ticket-repeat.png);
+    height: 80px;
+  }
+
+  .ticket-bas {
+    background-image: url(../img/ticket-bas.png);
+    height: 20px;
+    }
 
 }
