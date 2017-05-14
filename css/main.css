@@ -289,12 +289,55 @@ $$$$$$$$$$$$$$$$$$$$$$*/
 
   .connect {
     background-image: url(../img/ticket-repeat.png);
-    height: 80px;
+    width: 95%;
+    height: 100%;
+    position: relative;
+    top: -40px;
+  }
+
+  .connect > div,
+  .connect > p {
+    position: relative;
+    top: 40px;
+  }
+
+  .connect .dropdown {
+    position: relative;
+    background: rgb(196,123,129);
+    color: #ffe5e3;
+    left: 20px;
+    width: 40px!important;
+    line-height: 10px!important;
+  }
+
+  .connect div button {
+    width: 30px;
+    padding: 0 3px;
+    font-size: 0.7em;
+    background: inherit;
+  }
+
+  .connect div button .caret {
+    margin-left: 10px;
+  }
+
+  .connect .dropdown .dropdown-menu {
+    border: none;
+    min-width: 40px;
+    border-radius: 0;
+    margin: 0;
+    padding: 0 3px;
+    color: #ffe5e3;
+    font-size: 0.7em;
+    background: rgb(224,179,184);
   }
 
   .ticket-bas {
     background-image: url(../img/ticket-bas.png);
     height: 20px;
+    position: relative;
+    top: -40px;
+    width: 95%;
     }
 
 }

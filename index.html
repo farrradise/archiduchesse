@@ -64,7 +64,9 @@
 
       <!-- ecriture du header pour ordinateur  -->
       <div class="laptopheader hidden-xs hidden-sm">
+
         <header class="hidden-xs hidden-sm">
+
           <div class="row">
             <a class="col-md-4 col-lg-4" href="index.html"><img src="img/logo.svg" alt="logo société"></a>
 
@@ -83,14 +85,27 @@
               <div class="connect">
 
                 <div class="">
-                  <button></button>
-                  <div></div>
+                  <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+                    FR <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                       <li><a href="#">EN</a></li>
+                       <li><a href="#">US</a></li>
+                       <li><a href="#">ES</a></li>
+                       <li><a href="#">DE</a></li>
+                    </ul>
+                  </div>
+
+                  <div>Bienvenue, <a href="#">Connexion</a></div>
+
                 </div>
 
                 <p>
                   <span></span>
                   <span></span>
                 </p>
+
               </div>
 
               <div class="ticket-bas"> </div>
@@ -99,6 +114,9 @@
 
           </div>
 
+
+
+          <!-- mise en page deuxième partie du header  -->
           <nav class="row">
             <ul class="nav nav-tabs nav-justified">
               <li class="col-md-2 col-lg-2 active" role="presentation"><a href=""><img src="" alt="">De ville <span>Lisses et hautes</span></a></li>
