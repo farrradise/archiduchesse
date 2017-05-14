@@ -208,5 +208,18 @@ $$$$$$$$$$$$$$$$$$$$$$*/
 --------laptop----------
 $$$$$$$$$$$$$$$$$$$$$$*/
 
+@media(min-width:992px) {
+
 /*===========mise en page header===========*/
 /*=========================================*/
+  .laptopheader {
+    background-image: url(../img/bg.png);
+  }
+
+  .laptopheader header {
+    width: 94%;
+    margin: auto;
+
+  }
+
+}

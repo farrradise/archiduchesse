@@ -16,10 +16,10 @@
     <body>
 
 
-      <!-- ecriture du header  -->
-      <header>
+      <!-- ecriture du header pour mobile et tablette-->
+      <header class="hidden-md hidden-lg">
 
-        <nav class="navbar navbar-default hidden-md hidden-lg">
+        <nav class="navbar navbar-default">
           <div class="container-fluid">
 
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -63,7 +63,32 @@
         </nav>
       </header>
 
-
+      <!-- ecriture du header pour ordinateur  -->
+      <div class="laptopheader">
+        <header class="hidden-xs hidden-sm">
+          <div class="row">
+          <a class="col-md-4 col-lg-4" href="index.html"><img src="img/logo.svg" alt="logo société"></a>
+          <nav class="col-md-4 col-lg-4"></nav>
+          <div class="col-md-4 col-lg-4">
+            <div>
+              <button></button>
+              <div></div>
+            </div>
+            <p><span></span><span></span></p>
+          </div>
+        </div>
+          <nav class="row">
+          <ul class="nav nav-pills nav-justified">
+            <li class="col-md-2 col-lg-2"><a href=""><img src="" alt="">De ville <span>Lisses et hautes</span></a></li>
+            <li class="col-md-2 col-lg-2"><a href=""><img src="" alt="">De luxe <span>Mi-bas Fil d'écosse</span></a></li>
+            <li class="col-md-2 col-lg-2"><a href=""><img src="" alt="">Bouclette <span>Douces et chaudes</span></a></li>
+            <li class="col-md-2 col-lg-2"><a href=""><img src="" alt="">Fantaisie <span>Drôles de chaussettes</span></a></li>
+            <li class="col-md-2 col-lg-2"><a href=""><img src="" alt="">Socquette <span>Courtes et fines</span></a></li>
+            <li class="col-md-2 col-lg-2"><a href=""><img src="" alt="">Collant <span>Pour femme</span></a></li>
+          </ul>
+        </nav>
+        </header>
+      </div>
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
       <script src="bootstrap/js/bootstrap.js"></script>
