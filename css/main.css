@@ -140,6 +140,24 @@ header a:first-of-type {
   margin: 15px auto 50px auto;
 }
 
+#index > nav > ul li a {
+  color :rgb(74,74,76);
+  padding: 3px 12px;
+}
+
+#index > nav > ul li {
+margin: 5px 2px 10px 2px;
+background-color: lightgray;
+/*opacity: 0.8;*/
+border-radius: 4px;
+}
+
+#index > nav > ul li a:hover,
+#index > nav > ul .active a {
+  color: white;
+  background-color: rgb(74,74,76);
+}
+
 #index div {
   width: auto;
   flex-flow: row wrap;
@@ -156,6 +174,8 @@ header a:first-of-type {
 
 #index div > img {
   margin-top: 5px;
+  max-width: 500px;
+  margin: auto;
 }
 
 #index div figure figcaption {
@@ -174,6 +194,10 @@ header a:first-of-type {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+#index div figure a:hover {
+  text-decoration: none;
 }
 
 /*===========mise en page footer===========*/
@@ -645,7 +669,18 @@ $$$$$$$$$$$$$$$$$$$$$$*/
     order: 0;
   }
 
+  #index > nav > ul {
+    position: fixed;
+    display: flex;
+    flex-flow: column;
+    z-index: 3;
+    right: 12px;
+    top: 40vh;
+  }
 
+  #index > nav > ul li {
+  margin-bottom: 0;
+  }
   /*===========mise en page footer=============*/
   /*===========================================*/
 
