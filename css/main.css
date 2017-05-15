@@ -213,8 +213,9 @@ footer > div:last-child a {
 $$$$$$$$$$$$$$$$$$$$$$*/
 
 
-/*===========mise en page header===========*/
+/*===========mise en page header=============*/
 /*===========================================*/
+
 @media (max-width: 991px) {
     .navbar-header {
         float: none;
@@ -269,6 +270,48 @@ $$$$$$$$$$$$$$$$$$$$$$*/
 }
 
 @media(min-width:768px) {
+
+
+  /*===========mise en page footer=============*/
+  /*===========================================*/
+
+  footer div:first-child{
+    width: 65%;
+    /*opacity: 1;*/
+
+  }
+
+  footer div:first-child a {
+    flex-flow: row;
+    height: 80px;
+    width: 250px;
+    margin: 10px auto;
+    font-size: 1.3em;
+    background: rgb(228,228,228);
+    opacity: 0.6;
+    /*border: 1px solid red;*/
+    padding: 0px;
+    border-radius: 20px;
+  }
+
+  footer div:first-child span:last-child {
+    opacity: 1!important;
+    flex: auto;
+    align-content: center;
+    padding-top: 13px;
+  }
+
+  footer > div:last-child, footer > div:last-child form {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    min-width: 230px;
+  }
+
+  footer > div:last-child form {
+    margin-top: 0;
+  }
+
 }
 
 
@@ -522,6 +565,14 @@ $$$$$$$$$$$$$$$$$$$$$$*/
     line-height: 8px;
     /*border: 1px solid red;*/
     font-style: normal;
+  }
+
+  /*===========mise en page footer=============*/
+  /*===========================================*/
+
+  footer div:first-child{
+    width: 69%;
+    /*opacity: 1;*/
   }
 
 }
