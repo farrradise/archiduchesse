@@ -130,6 +130,51 @@ header a:first-of-type {
   /*width: 50px!important;*/
 }
 
+/*===========mise en page footer===========*/
+/*===========================================*/
+
+footer div {
+  display: flex;
+  flex-flow: row wrap;
+  width: 80%;
+  border: 1px solid red;
+  margin: auto!important;
+}
+
+footer > div >a {
+  height: 130px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
+  overflow: hidden;
+}
+
+footer div span {
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+  color: #999;
+  font-style: italic;
+  font-size : 0.8em;
+
+}
+
+footer div a span img {
+  text-align: center;
+  height: 200%;
+  margin: auto;
+}
+
+footer div a:hover span img {
+  position: relative;
+  top: -100%;
+}
+
+footer div a:hover, footer div a:hover span {
+  text-decoration: none;
+  color: #555;
+}
+
 
 /*$$$$$$$$$$$$$$$$$$$$$$
 -------tablet---------
