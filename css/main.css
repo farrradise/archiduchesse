@@ -4,7 +4,7 @@
 body {
   background: url(../img/bg2.png);
   /*opacity: 0.98!important;*/
-  font-family: Times, serif;
+  font-family: "Georgia",Times,serif;
 }
 
 /*===========mise en page header===========*/
@@ -74,12 +74,10 @@ header a:first-of-type {
 
 .collapse *, .collapse{
   background-image: url(../img/bg.png);
-  /*background-size: 350px;*/
   height: auto;
 }
 
 .collapse > ul:nth-of-type(2) {
-  /*height: 100%;*/
   border-top: 1px solid lightgray;
   display: flex;
   margin-top: 15px;
@@ -89,7 +87,6 @@ header a:first-of-type {
 
 
 .collapse > ul:nth-of-type(2) > li a {
-  /*max-width: 10%;*/
   border-bottom: 1px solid gray;
   font-size: 1.2em;
   margin: 0 5px;
@@ -140,34 +137,44 @@ header a:first-of-type {
 
 #index {
   width: 90%;
-  margin: auto;
+  margin: 15px auto 50px auto;
 }
 
 #index div {
   width: auto;
-  /*margin: auto;*/
   flex-flow: row wrap;
-  border: 1px solid red;
 }
 
 #index div figure {
- border: 1px solid green;
- margin: 0;
- height: 258px;
+ margin: 10px 0;
 }
 
 #index div figure img {
   padding: 0;
   width: 100%;
-  border: 1px solid red;
 }
 
 #index div > img {
-  /*max-width: 400px;*/
   margin-top: 5px;
 }
 
-/*display: flex;*/
+#index div figure figcaption {
+  text-align: center;
+  margin-top: -10px;
+  font-size: 16px;
+  color: #555555;
+  font-style: italic;
+}
+
+#index div figure figcaption span {
+  background-color: lightgray;
+  opacity: 0.5;
+  font-size: 0.9em;
+  padding: 3px 15px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 
 /*===========mise en page footer===========*/
 /*===========================================*/
