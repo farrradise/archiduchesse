@@ -130,6 +130,32 @@ header a:first-of-type {
   /*width: 50px!important;*/
 }
 
+
+
+
+/*===========mise en page main===============*/
+/*===========================================*/
+
+/*___________INDEX_____________*/
+
+#index {
+  width: 90%;
+  margin: auto;
+}
+
+#index div {
+  width: auto;
+  margin: auto;
+}
+
+#index div > img {
+  max-width: 500px;
+  margin-top: 5px;
+}
+
+/*flex-flow: row wrap;*/
+/*display: flex;*/
+
 /*===========mise en page footer===========*/
 /*===========================================*/
 
@@ -481,7 +507,6 @@ $$$$$$$$$$$$$$$$$$$$$$*/
     background: url(../img/stabilo.png) no-repeat;
     background-position: center;
     background-size: 90%;
-    /*width: 100%;*/
     margin: 0 auto;
     padding: 15px 0 0 65px;
     line-height: 20px;
