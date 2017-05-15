@@ -145,15 +145,28 @@ header a:first-of-type {
 
 #index div {
   width: auto;
-  margin: auto;
+  /*margin: auto;*/
+  flex-flow: row wrap;
+  border: 1px solid red;
+}
+
+#index div figure {
+ border: 1px solid green;
+ margin: 0;
+ height: 258px;
+}
+
+#index div figure img {
+  padding: 0;
+  width: 100%;
+  border: 1px solid red;
 }
 
 #index div > img {
-  max-width: 500px;
+  /*max-width: 400px;*/
   margin-top: 5px;
 }
 
-/*flex-flow: row wrap;*/
 /*display: flex;*/
 
 /*===========mise en page footer===========*/
@@ -296,6 +309,24 @@ $$$$$$$$$$$$$$$$$$$$$$*/
 }
 
 @media(min-width:768px) {
+
+  /*===========mise en page main===============*/
+  /*===========================================*/
+
+  /*___________INDEX_____________*/
+
+  #index > div {
+    display: flex;
+  }
+
+  #index > div > img:first-child {
+    order: -2;
+  }
+
+  #index > div figure:first-of-type {
+    order: -1;
+    /*margin-top: 0;*/
+  }
 
 
   /*===========mise en page footer=============*/
@@ -591,6 +622,22 @@ $$$$$$$$$$$$$$$$$$$$$$*/
     /*border: 1px solid red;*/
     font-style: normal;
   }
+
+
+
+  /*===========mise en page main=============*/
+  /*===========================================*/
+
+  /*___________INDEX_____________*/
+
+  #index > div {
+    display: flex;
+  }
+
+  #index > div figure:first-of-type {
+    order: 0;
+  }
+
 
   /*===========mise en page footer=============*/
   /*===========================================*/
