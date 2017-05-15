@@ -367,6 +367,7 @@ $$$$$$$$$$$$$$$$$$$$$$*/
     color: rgb(179,88,96);
     background: url(../img/stabilo.png) no-repeat;
     background-position: center;
+    background-size: 90%;
     /*width: 100%;*/
     margin: 0 auto;
     padding: 15px 0 0 65px;
@@ -400,5 +401,55 @@ $$$$$$$$$$$$$$$$$$$$$$*/
     font-family: "Georgia",Times,serif;
   }
 
+
+  /*mise en page deuxieme partie du header */
+
+  header > nav img {
+    width: 50px;
+    margin: 0!important;
+    /*border: 1px solid red;*/
+    float: left;
+    position: relative;
+    top: 0px;
+    transition: 0.3s;
+  }
+
+  header > nav li {
+    font-style: italic;
+    position: relative;
+    top: -2.5px;
+    padding: 0!important;
+    font-size: 19px;
+  }
+
+  header > nav li:not(.active) a {
+  background-color: lightgray;
+  opacity: 0.5;
+  color: inherit;
+  }
+
+  header > nav a:hover img {
+  top: -3px;
+  position: relative;
+  }
+
+  header > nav li >a {
+    line-height: 10px;
+    /*border: 1px solid green!important;*/
+    /*padding: 0!important;*/
+    /*margin: 0!important;*/
+    width: 95%;
+  }
+
+
+  header > nav span {
+
+    font-size: 0.55em;
+    padding: 0;
+    margin: 0;
+    line-height: 8px;
+    /*border: 1px solid red;*/
+    font-style: normal;
+  }
 
 }
