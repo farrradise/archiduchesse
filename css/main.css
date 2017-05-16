@@ -275,7 +275,11 @@ border-radius: 4px;
 }
 
 #contact h3 {
-  /*text-align: */
+  padding-bottom: 10px;
+}
+
+#contact > div {
+  margin-bottom: 20px;
 }
 
 #contact > div:first-child > form {
@@ -290,6 +294,18 @@ border-radius: 4px;
 #contact > div:first-child > form > div  {
   margin-bottom: 10px;
 }
+
+
+#contact > div:nth-child(2) {
+  /*display: inline-block;*/
+  width: 100%;
+ }
+
+#contact > div:last-child > p{
+  text-align: center;
+  padding-top: 5%;
+}
+
 
 /*===========mise en page footer===========*/
 /*===========================================*/
