@@ -211,7 +211,6 @@ border-radius: 4px;
 #blog section img {
   width: 90%;
   max-width: 700px;
-  /*width: auto;*/
   padding: 10px;
   border: 1px solid gray;
 }
@@ -223,6 +222,47 @@ border-radius: 4px;
 #blog section {
   max-width: 850px;
 }
+
+/*section visible pour laptop seulement (liens de navigation)*/
+
+#blog > div {
+  position: absolute;
+  top: 170px;
+  width: 20%;
+  right: 0px;
+}
+
+#blog > div img {
+  width: 40px;
+  position: relative;
+  left: -15px;
+  top: -20px;
+}
+
+#blog > div ul {
+  margin-top: -25px;
+}
+#blog > div p {
+  position: relative;
+  top: -20px;
+  left: -35px;
+  color: lightgray;
+  font-style: italic;
+  margin: 0;
+  width: 250px;
+  padding: 0;
+}
+#blog > div li {
+  border-bottom: 1px dashed lightgray;
+  width: 140px;
+  margin-left: -30px;
+  list-style: none;
+  padding-left: 10px;
+  line-height: 35px;
+
+}
+
+
 /*===========mise en page footer===========*/
 /*===========================================*/
 
@@ -716,6 +756,15 @@ $$$$$$$$$$$$$$$$$$$$$$*/
   #index > nav > ul li {
   margin-bottom: 0;
   }
+
+
+  /*___________INDEX_____________*/
+
+  #blog {
+    width: 65%;
+    margin-left: 10%;
+  }
+
   /*===========mise en page footer=============*/
   /*===========================================*/
 
